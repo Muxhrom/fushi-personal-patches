@@ -1,0 +1,21 @@
+# Repository artifacts are deliberately allowlisted when staging.
+*.exe
+*.dll
+*.so
+*.zip
+*.7z
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.pem
+*.key
+.env
+.env.*
+*.local.*
+work/
+build/
+.dart_tool/
+node_modules/
+pub-cache/
+flutter-sdk/

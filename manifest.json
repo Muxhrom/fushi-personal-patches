@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "feature": "windows-gal-text-auto-copy",
+  "upstream_url": "https://github.com/hajisensai/Fushi",
+  "upstream_commit": "689f44456cd224641e916da4ef5bf38438771b29",
+  "upstream_version": "2.9.1",
+  "installed_original_version": "2.9.1+16909",
+  "validated_on": "2026-10-15",
+  "platform": "windows-x64",
+  "flutter_version": "3.44.0",
+  "dart_version": "3.12.0",
+  "settings_item_id": "game.text_auto_copy",
+  "preference_key": "gal_text_auto_copy_enabled",
+  "default_enabled": false,
+  "patch_file": "patches/0001-windows-gal-text-auto-copy.patch",
+  "patch_sha256": "cfba8d92e4adc4dc99a84f49acf6fcdffec48d8ab49ba56e60968c77b70ee3d5",
+  "files": [
+    {
+      "path": "fushi/lib/i18n/strings.g.dart",
+      "kind": "modified",
+      "git_blob_before": "5814f57b57611e096f5883b7a7ec49f1c8213f24",
+      "git_blob_after": "a3471d31e5f9cc7c9dbd29ecc12a205bb08ded7c",
+      "sha256_after": "6573abaae2e8451f5665b422a995987e099ad78691665962d1ce1a84d6c0ea33"
+    },
+    {
+      "path": "fushi/lib/i18n/strings.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "c0d85cd187bfde1903dce9d09a9195b259fbd126",
+      "git_blob_after": "7089c81529dcefd93d5d41f205dc762a6769c4e1",
+      "sha256_after": "c8ea44aa487cd91a40495b7ee3b6a25805aabc61b3c5e5d5ca0fb5e3836b4b05"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_ar.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "04e9539e9dfd4bde7b2f4b3af77c06d2ff612e55",
+      "git_blob_after": "aa91b19b73aec2aba67a59fbc79d35855d4f6b91",
+      "sha256_after": "258ea6815d318e6fa52df9341769ae6c0d35ef11197e2fd3ed5eec3bb6dbbcc5"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_de.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "16171aa9808636a25b03de7efa4c0d7ec8de3e1b",
+      "git_blob_after": "ee1e04411bfbaf46d21a99d6bce1942f9847fee4",
+      "sha256_after": "2c96a9e80d3ba8bd3eef89babb5dc8be4c2a3d05037c2a4a0c1355429ac07fd0"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_es.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "513649fcc41e5216b46dda42baf879b60293ebca",
+      "git_blob_after": "e6f870b6844440e7549f23cb56dd8978e1e12a5e",
+      "sha256_after": "2221bb56fd7608bd3ac04f3aad43aecefd601e698e287817777b9e43530d08cb"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_fr.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "e6fe5cb75963591b6a1ba8eedb8a019b764608c7",
+      "git_blob_after": "60f455efb84363bd9829792d19a6a213e953abf7",
+      "sha256_after": "8d10d7813de4c0964acb6def7b1ff1d419f7493c24e33df09a3627b2e305e821"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_id.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "9838fc56b74763579186ba974c828610bcd596ce",
+      "git_blob_after": "52e32c526fcc8a48a10d606819e6c4f6eea512cc",
+      "sha256_after": "0cb8025726ece4bd813e9221fda76339733fa4233aeccdf8d8fb707e4789af62"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_it.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "d66b9e7016d61ce5ae8f65ab0b5572bee469c3ee",
+      "git_blob_after": "afdc529a8140c37f55cc53c4fce0e9f62b508857",
+      "sha256_after": "81b68723134eb4bba16a39342350d427098245e41f2d52791b2bc994f66a1b4a"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_ja.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "ef8274b2c8087e6fd0cf3038d61d27ecab2fa977",
+      "git_blob_after": "8f19c9e92da6c141b963081b3880f594a357ed7c",
+      "sha256_after": "f3a0a2f769ff59c122907ca2177900ab2d00f679c13c5488d39f58391d972bfc"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_ko.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "b35119e2987b09952c23588d449856e58359a391",
+      "git_blob_after": "2352aeae67ec0a7289941f9900260f95cb952e40",
+      "sha256_after": "a59dadf5549d1f221408350a250d80cdcb6c30257c00db6c3f1e6f80555d1572"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_nl.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "daf4e4ae1dd67db66d7f2d0636b9b3e7be4ea36b",
+      "git_blob_after": "4c6f6a3ea4245b120b48c6eb2070ac30ad5f7d29",
+      "sha256_after": "0f34b3a9b8084beb85a7517a17b99496d7924a899fbd70d038997dc66cffef5c"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_pt-BR.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "eaa81cf4f94873f1d232bb92f500f519b035b9ab",
+      "git_blob_after": "7835f2410c245f77bccb270f1f2d64fdacf73041",
+      "sha256_after": "3f19da011235863f233b34f2342542ec240618e47c682700ebde8f61efcd005d"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_ru.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "ab2f6cf9579bb7c8435dc27f3802f4d630729568",
+      "git_blob_after": "c2abcf0c2ddae75c890c109c1c363f99815af653",
+      "sha256_after": "e940bb249469e8d59ff10e2c6f38267b70361e6db6621aa904fdbe85ee78dc80"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_th.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "48c3f5e7feffb8f4420c0034ace01b004f2b7320",
+      "git_blob_after": "ac3ca707ec38ab9c7ad82c4527553c1bb3f1c628",
+      "sha256_after": "8c97ecd2d43c05a9f036bf35e615093cab8519cb515c65b44e47b820fb034035"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_tr.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "82e0092182695d67db5a4087c0ad9e1cbe1cc0bf",
+      "git_blob_after": "cb336bcae5e7786b9427870ddc7360ec66025df5",
+      "sha256_after": "fab434a5762c05a0e15b2b0c388f264de95532b1ffdd20bdb872dd6988127ccd"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_vi.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "3085636ce57ffcf36a208256ba9b5817c3ec64e4",
+      "git_blob_after": "33ec199b73c799c1f5bc9d71d09ed556c2c7fb56",
+      "sha256_after": "05d7edbf1f152de3caf0a43f393d625633d047aa64900ea3050bad12d3b9b480"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_zh-CN.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "f4ac9f1cf59c04f33312d591627ee8771ffd9451",
+      "git_blob_after": "150b8611cc333cf9d683e3ff32277374ceec42ac",
+      "sha256_after": "a539cf1c0dc5e251bfe89a256cea19f119d479834c73bb9eec344483458dc9b9"
+    },
+    {
+      "path": "fushi/lib/i18n/strings_zh-HK.i18n.json",
+      "kind": "modified",
+      "git_blob_before": "7c953435b46bc0fdb07a100c75fa25dc1ff09a08",
+      "git_blob_after": "164921b121bc217ea7326ec8af87b4f7c6e82b35",
+      "sha256_after": "323274f93e7528a016e3d7c277d5cb1f815e1748feb6066a26d74af379808ded"
+    },
+    {
+      "path": "fushi/lib/src/mining/gal_text_auto_copy_controller.dart",
+      "kind": "added",
+      "git_blob_before": null,
+      "git_blob_after": "91b6bf14113c14b8e73aa640515762034c73caa4",
+      "sha256_after": "4bbee475eb9bf33302050ff5aa717d71f357d08b8f74048f9d3bb5bdd34cf5c6"
+    },
+    {
+      "path": "fushi/lib/src/models/app_model.dart",
+      "kind": "modified",
+      "git_blob_before": "babb62abe4dbf0e970218cc89f51af59ca09bcfe",
+      "git_blob_after": "007931278eb3b784c1e42c6d265159b9330d8cd8",
+      "sha256_after": "54a66e5f61903c27face1f02fcfa180669ca8a421dc2b17d72709c7e3f08f199"
+    },
+    {
+      "path": "fushi/lib/src/models/preference_keys.dart",
+      "kind": "modified",
+      "git_blob_before": "ff7396da29a3688ea4f9b717b4d031bb21e8a396",
+      "git_blob_after": "dda8e4036d40f8d408dcafd04687029a3f295e96",
+      "sha256_after": "5edb5a00bd64fd881398ac09eefc640d925adab8ae8bbff043b64ba7abcf03a7"
+    },
+    {
+      "path": "fushi/lib/src/models/preferences_repository.dart",
+      "kind": "modified",
+      "git_blob_before": "87e560c4b82aa042a0d2036bcbb7900af4e4bfb4",
+      "git_blob_after": "53a61a8701d09af3d683d940b2890006dfc095d1",
+      "sha256_after": "f56d4e83b9ab7362e79dbca753c13df13da293597eb658b41225c8898e2bea87"
+    },
+    {
+      "path": "fushi/lib/src/settings/settings_schema_game.dart",
+      "kind": "modified",
+      "git_blob_before": "20bd453638f47d5fb26f8b8af6f417899e95a2a4",
+      "git_blob_after": "fb3886431b2c9a58657d00e5bc8638ff3c50c48e",
+      "sha256_after": "5688241c54aa89450389bf105c947e6e522fac2d63f55c2c87aaf5c03671d767"
+    },
+    {
+      "path": "fushi/test/mining/gal_text_auto_copy_controller_test.dart",
+      "kind": "added",
+      "git_blob_before": null,
+      "git_blob_after": "29547a75f31561c50bb3bbe1dc0ee3fefc4cc5dd",
+      "sha256_after": "bf46efdb69ea73a15c344369d3ebefc1194eafbafb75c50af5597d32093b49d6"
+    },
+    {
+      "path": "fushi/test/models/gal_text_auto_copy_preferences_test.dart",
+      "kind": "added",
+      "git_blob_before": null,
+      "git_blob_after": "bf4c05bd986e5215355eff698459797513c91ad3",
+      "sha256_after": "394525ba202bff7132e517299b05bf713b4b276a26b104a516574e4ca205ad3c"
+    },
+    {
+      "path": "fushi/test/settings/gal_text_auto_copy_settings_test.dart",
+      "kind": "added",
+      "git_blob_before": null,
+      "git_blob_after": "3b170c8bd821e3ba29057cf0ad4c7ff66a3e785d",
+      "sha256_after": "482d09e32add02ca622fe4b7566923bf0eb7b80c7b60d2683c4af4ab9126df1e"
+    },
+    {
+      "path": "fushi/test/settings/settings_schema_coverage_test.dart",
+      "kind": "modified",
+      "git_blob_before": "bc100f06ea27fe08244110320f4dd276db2e4e0e",
+      "git_blob_after": "d7ccffcc2f7456f39aae3408bea1cbd206d1be24",
+      "sha256_after": "339b3d06b39fe59f33fa9f7317468b82d330a95bfa4dbe527663e7e9a33e5176"
+    }
+  ]
+}

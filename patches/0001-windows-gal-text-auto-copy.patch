@@ -1,0 +1,1257 @@
+diff --git a/fushi/lib/i18n/strings.g.dart b/fushi/lib/i18n/strings.g.dart
+index 5814f57b57611e096f5883b7a7ec49f1c8213f24..a3471d31e5f9cc7c9dbd29ecc12a205bb08ded7c 100644
+--- a/fushi/lib/i18n/strings.g.dart
++++ b/fushi/lib/i18n/strings.g.dart
+@@ -1,9 +1,9 @@
+ /// Generated file. Do not edit.
+ ///
+ /// Locales: 17
+-/// Strings: 106233 (6249 per locale)
++/// Strings: 106267 (6251 per locale)
+ ///
+-/// Built on 2026-10-03 at 05:51 UTC
++/// Built on 2026-10-14 at 16:25 UTC
+ 
+ // coverage:ignore-file
+ // ignore_for_file: type=lint
+@@ -9007,6 +9007,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
+       'This device has no usable Google Play services, so system OCR can\'t run here.';
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -24057,6 +24060,11 @@ class _StringsAr extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -39498,6 +39506,11 @@ class _StringsDe extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -54998,6 +55011,11 @@ class _StringsEs extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -70576,6 +70594,11 @@ class _StringsFr extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -85812,6 +85835,11 @@ class _StringsId extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -101210,6 +101238,11 @@ class _StringsIt extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -115634,6 +115667,11 @@ class _StringsJa extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -130068,6 +130106,11 @@ class _StringsKo extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -145414,6 +145457,11 @@ class _StringsNl extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -160830,6 +160878,11 @@ class _StringsPtBr extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -176191,6 +176244,11 @@ class _StringsRu extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -191230,6 +191288,11 @@ class _StringsTh extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -206472,6 +206535,11 @@ class _StringsTr extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -221643,6 +221711,11 @@ class _StringsVi extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ // Path: <root>
+@@ -235510,6 +235583,10 @@ class _StringsZhCn extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       '启用本选项之前识别的卷没有置信度记录，此档位不会动它们。想让大模型重读这类卷里没把握的字，请用本机模型对该卷重新识别。';
++  @override
++  String get gal_text_auto_copy => '提取文本自动复制到剪贴板';
++  @override
++  String get gal_text_auto_copy_hint => '选定文本流的新台词到达时自动复制，覆盖剪贴板原有内容。';
+ }
+ 
+ // Path: <root>
+@@ -249405,6 +249482,11 @@ class _StringsZhHk extends _StringsEn {
+   @override
+   String get manga_ocr_ai_mode_low_confidence_legacy =>
+       'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++  @override
++  String get gal_text_auto_copy => 'Automatically copy extracted text';
++  @override
++  String get gal_text_auto_copy_hint =>
++      'Copy each new line from the selected text stream, replacing the clipboard contents.';
+ }
+ 
+ /// Flat map(s) containing all translations.
+@@ -262352,6 +262434,10 @@ extension on _StringsEn {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -275295,6 +275381,10 @@ extension on _StringsAr {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -288314,6 +288404,10 @@ extension on _StringsDe {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -301316,6 +301410,10 @@ extension on _StringsEs {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -314336,6 +314434,10 @@ extension on _StringsFr {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -327299,6 +327401,10 @@ extension on _StringsId {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -340299,6 +340405,10 @@ extension on _StringsIt {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -353173,6 +353283,10 @@ extension on _StringsJa {
+         return 'この端末には利用できる Google Play 開発者サービスがないため、システム OCR は使えません。';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -366053,6 +366167,10 @@ extension on _StringsKo {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -379047,6 +379165,10 @@ extension on _StringsNl {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -392034,6 +392156,10 @@ extension on _StringsPtBr {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -405027,6 +405153,10 @@ extension on _StringsRu {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -417974,6 +418104,10 @@ extension on _StringsTh {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -430954,6 +431088,10 @@ extension on _StringsTr {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -443915,6 +444053,10 @@ extension on _StringsVi {
+         return 'This device has no usable Google Play services, so system OCR can\'t run here.';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+@@ -456740,6 +456882,10 @@ extension on _StringsZhCn {
+         return '本机没有可用的 Google Play 服务，无法使用系统 OCR。';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return '启用本选项之前识别的卷没有置信度记录，此档位不会动它们。想让大模型重读这类卷里没把握的字，请用本机模型对该卷重新识别。';
++      case 'gal_text_auto_copy':
++        return '提取文本自动复制到剪贴板';
++      case 'gal_text_auto_copy_hint':
++        return '选定文本流的新台词到达时自动复制，覆盖剪贴板原有内容。';
+       default:
+         return null;
+     }
+@@ -469567,6 +469713,10 @@ extension on _StringsZhHk {
+         return '本機沒有可用的 Google Play 服務，無法使用系統 OCR。';
+       case 'manga_ocr_ai_mode_low_confidence_legacy':
+         return 'Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.';
++      case 'gal_text_auto_copy':
++        return 'Automatically copy extracted text';
++      case 'gal_text_auto_copy_hint':
++        return 'Copy each new line from the selected text stream, replacing the clipboard contents.';
+       default:
+         return null;
+     }
+diff --git a/fushi/lib/i18n/strings.i18n.json b/fushi/lib/i18n/strings.i18n.json
+index c0d85cd187bfde1903dce9d09a9195b259fbd126..7089c81529dcefd93d5d41f205dc762a6769c4e1 100644
+--- a/fushi/lib/i18n/strings.i18n.json
++++ b/fushi/lib/i18n/strings.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_ar.i18n.json b/fushi/lib/i18n/strings_ar.i18n.json
+index 04e9539e9dfd4bde7b2f4b3af77c06d2ff612e55..aa91b19b73aec2aba67a59fbc79d35855d4f6b91 100644
+--- a/fushi/lib/i18n/strings_ar.i18n.json
++++ b/fushi/lib/i18n/strings_ar.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_de.i18n.json b/fushi/lib/i18n/strings_de.i18n.json
+index 16171aa9808636a25b03de7efa4c0d7ec8de3e1b..ee1e04411bfbaf46d21a99d6bce1942f9847fee4 100644
+--- a/fushi/lib/i18n/strings_de.i18n.json
++++ b/fushi/lib/i18n/strings_de.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_es.i18n.json b/fushi/lib/i18n/strings_es.i18n.json
+index 513649fcc41e5216b46dda42baf879b60293ebca..e6f870b6844440e7549f23cb56dd8978e1e12a5e 100644
+--- a/fushi/lib/i18n/strings_es.i18n.json
++++ b/fushi/lib/i18n/strings_es.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_fr.i18n.json b/fushi/lib/i18n/strings_fr.i18n.json
+index e6fe5cb75963591b6a1ba8eedb8a019b764608c7..60f455efb84363bd9829792d19a6a213e953abf7 100644
+--- a/fushi/lib/i18n/strings_fr.i18n.json
++++ b/fushi/lib/i18n/strings_fr.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_id.i18n.json b/fushi/lib/i18n/strings_id.i18n.json
+index 9838fc56b74763579186ba974c828610bcd596ce..52e32c526fcc8a48a10d606819e6c4f6eea512cc 100644
+--- a/fushi/lib/i18n/strings_id.i18n.json
++++ b/fushi/lib/i18n/strings_id.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_it.i18n.json b/fushi/lib/i18n/strings_it.i18n.json
+index d66b9e7016d61ce5ae8f65ab0b5572bee469c3ee..afdc529a8140c37f55cc53c4fce0e9f62b508857 100644
+--- a/fushi/lib/i18n/strings_it.i18n.json
++++ b/fushi/lib/i18n/strings_it.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_ja.i18n.json b/fushi/lib/i18n/strings_ja.i18n.json
+index ef8274b2c8087e6fd0cf3038d61d27ecab2fa977..8f19c9e92da6c141b963081b3880f594a357ed7c 100644
+--- a/fushi/lib/i18n/strings_ja.i18n.json
++++ b/fushi/lib/i18n/strings_ja.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "システム OCR には Google Play 開発者サービスが必要ですが、この端末では見つからないか、無効、または古いバージョンです。",
+   "ocr_system_model_play_services_fix": "Google Play 開発者サービスを修復",
+   "ocr_system_model_play_services_unavailable": "この端末には利用できる Google Play 開発者サービスがないため、システム OCR は使えません。",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_ko.i18n.json b/fushi/lib/i18n/strings_ko.i18n.json
+index b35119e2987b09952c23588d449856e58359a391..2352aeae67ec0a7289941f9900260f95cb952e40 100644
+--- a/fushi/lib/i18n/strings_ko.i18n.json
++++ b/fushi/lib/i18n/strings_ko.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_nl.i18n.json b/fushi/lib/i18n/strings_nl.i18n.json
+index daf4e4ae1dd67db66d7f2d0636b9b3e7be4ea36b..4c6f6a3ea4245b120b48c6eb2070ac30ad5f7d29 100644
+--- a/fushi/lib/i18n/strings_nl.i18n.json
++++ b/fushi/lib/i18n/strings_nl.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_pt-BR.i18n.json b/fushi/lib/i18n/strings_pt-BR.i18n.json
+index eaa81cf4f94873f1d232bb92f500f519b035b9ab..7835f2410c245f77bccb270f1f2d64fdacf73041 100644
+--- a/fushi/lib/i18n/strings_pt-BR.i18n.json
++++ b/fushi/lib/i18n/strings_pt-BR.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_ru.i18n.json b/fushi/lib/i18n/strings_ru.i18n.json
+index ab2f6cf9579bb7c8435dc27f3802f4d630729568..c2abcf0c2ddae75c890c109c1c363f99815af653 100644
+--- a/fushi/lib/i18n/strings_ru.i18n.json
++++ b/fushi/lib/i18n/strings_ru.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_th.i18n.json b/fushi/lib/i18n/strings_th.i18n.json
+index 48c3f5e7feffb8f4420c0034ace01b004f2b7320..ac3ca707ec38ab9c7ad82c4527553c1bb3f1c628 100644
+--- a/fushi/lib/i18n/strings_th.i18n.json
++++ b/fushi/lib/i18n/strings_th.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_tr.i18n.json b/fushi/lib/i18n/strings_tr.i18n.json
+index 82e0092182695d67db5a4087c0ad9e1cbe1cc0bf..cb336bcae5e7786b9427870ddc7360ec66025df5 100644
+--- a/fushi/lib/i18n/strings_tr.i18n.json
++++ b/fushi/lib/i18n/strings_tr.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_vi.i18n.json b/fushi/lib/i18n/strings_vi.i18n.json
+index 3085636ce57ffcf36a208256ba9b5817c3ec64e4..33ec199b73c799c1f5bc9d71d09ed556c2c7fb56 100644
+--- a/fushi/lib/i18n/strings_vi.i18n.json
++++ b/fushi/lib/i18n/strings_vi.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "System OCR needs Google Play services, which is missing, disabled or outdated on this device.",
+   "ocr_system_model_play_services_fix": "Fix Google Play services",
+   "ocr_system_model_play_services_unavailable": "This device has no usable Google Play services, so system OCR can't run here.",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/i18n/strings_zh-CN.i18n.json b/fushi/lib/i18n/strings_zh-CN.i18n.json
+index f4ac9f1cf59c04f33312d591627ee8771ffd9451..150b8611cc333cf9d683e3ff32277374ceec42ac 100644
+--- a/fushi/lib/i18n/strings_zh-CN.i18n.json
++++ b/fushi/lib/i18n/strings_zh-CN.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "系统 OCR 依赖 Google Play 服务，本机的 Google Play 服务缺失、被停用或版本过旧。",
+   "ocr_system_model_play_services_fix": "修复 Google Play 服务",
+   "ocr_system_model_play_services_unavailable": "本机没有可用的 Google Play 服务，无法使用系统 OCR。",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "启用本选项之前识别的卷没有置信度记录，此档位不会动它们。想让大模型重读这类卷里没把握的字，请用本机模型对该卷重新识别。"
++  "manga_ocr_ai_mode_low_confidence_legacy": "启用本选项之前识别的卷没有置信度记录，此档位不会动它们。想让大模型重读这类卷里没把握的字，请用本机模型对该卷重新识别。",
++  "gal_text_auto_copy": "提取文本自动复制到剪贴板",
++  "gal_text_auto_copy_hint": "选定文本流的新台词到达时自动复制，覆盖剪贴板原有内容。"
+ }
+diff --git a/fushi/lib/i18n/strings_zh-HK.i18n.json b/fushi/lib/i18n/strings_zh-HK.i18n.json
+index 7c953435b46bc0fdb07a100c75fa25dc1ff09a08..164921b121bc217ea7326ec8af87b4f7c6e82b35 100644
+--- a/fushi/lib/i18n/strings_zh-HK.i18n.json
++++ b/fushi/lib/i18n/strings_zh-HK.i18n.json
+@@ -6247,5 +6247,7 @@
+   "ocr_system_model_play_services_resolvable": "系統 OCR 依賴 Google Play 服務，本機的 Google Play 服務缺失、被停用或版本過舊。",
+   "ocr_system_model_play_services_fix": "修復 Google Play 服務",
+   "ocr_system_model_play_services_unavailable": "本機沒有可用的 Google Play 服務，無法使用系統 OCR。",
+-  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text."
++  "manga_ocr_ai_mode_low_confidence_legacy": "Volumes recognized before this option existed carry no confidence scores, so this mode leaves them untouched. Re-run OCR on such a volume (with an on-device model) to let the AI re-read its uncertain text.",
++  "gal_text_auto_copy": "Automatically copy extracted text",
++  "gal_text_auto_copy_hint": "Copy each new line from the selected text stream, replacing the clipboard contents."
+ }
+diff --git a/fushi/lib/src/mining/gal_text_auto_copy_controller.dart b/fushi/lib/src/mining/gal_text_auto_copy_controller.dart
+new file mode 100644
+index 0000000000000000000000000000000000000000..91b6bf14113c14b8e73aa640515762034c73caa4
+--- /dev/null
++++ b/fushi/lib/src/mining/gal_text_auto_copy_controller.dart
+@@ -0,0 +1,92 @@
++import 'dart:async';
++
++import 'package:fushi/src/mining/gal_hook_session_controller.dart';
++import 'package:fushi/src/mining/serial_job_queue.dart';
++import 'package:fushi/src/sync/texthooker_service.dart';
++
++/// Copies newly received, selected game text independently of the workbench UI.
++class GalTextAutoCopyController {
++  GalTextAutoCopyController({
++    required GalHookSessionController session,
++    required Future<void> Function(String text) clipboardWriter,
++    void Function(Object error, StackTrace stack)? onError,
++  }) : _session = session,
++       _clipboardWriter = clipboardWriter,
++       _onError = onError {
++    _rememberLatestLine();
++    _session.addListener(_onSessionChanged);
++  }
++
++  final GalHookSessionController _session;
++  final Future<void> Function(String text) _clipboardWriter;
++  final void Function(Object error, StackTrace stack)? _onError;
++  final SerialJobQueue _queue = SerialJobQueue();
++  bool _enabled = false;
++  bool _disposed = false;
++  int _generation = 0;
++  String? _observedId;
++  String? _observedText;
++
++  bool get enabled => _enabled;
++
++  void setEnabled(bool value) {
++    if (_disposed || _enabled == value) return;
++    _enabled = value;
++    ++_generation;
++    // Switching on never overwrites the clipboard with buffered history.
++    _rememberLatestLine();
++  }
++
++  TexthookerLineEntry? get _latestLine {
++    final List<TexthookerLineEntry> lines = _session.lines;
++    return lines.isEmpty ? null : lines.last;
++  }
++
++  void _rememberLatestLine() {
++    final TexthookerLineEntry? entry = _latestLine;
++    _observedId = entry?.id;
++    _observedText = entry?.text;
++  }
++
++  bool _isSelected(TexthookerLineEntry entry) {
++    final List<TexthookerLineEntry> lines = _session.workbenchLines;
++    return lines.isNotEmpty && lines.last.id == entry.id;
++  }
++
++  void _onSessionChanged() {
++    final TexthookerLineEntry? entry = _latestLine;
++    if (entry?.id == _observedId && entry?.text == _observedText) return;
++    _observedId = entry?.id;
++    _observedText = entry?.text;
++    if (!_enabled || entry == null || !_isSelected(entry)) return;
++
++    final int generation = _generation;
++    final DateTime? startedAt = _session.state.sessionStartedAt;
++    unawaited(
++      _queue.enqueue<void>(
++        () async {
++          // Serialize writes so an older asynchronous copy cannot win. A toggle,
++          // shutdown or new capture session cancels writes that have not started.
++          if (_disposed ||
++              !_enabled ||
++              generation != _generation ||
++              startedAt != _session.state.sessionStartedAt) {
++            return;
++          }
++          final List<TexthookerLineEntry> selected = _session.workbenchLines;
++          if (!selected.any((line) => line.id == entry.id)) return;
++          await _clipboardWriter(entry.text);
++        },
++        buildFailure: (Object error, StackTrace stack) {},
++        onError: _onError,
++      ),
++    );
++  }
++
++  void dispose() {
++    if (_disposed) return;
++    _disposed = true;
++    ++_generation;
++    _session.removeListener(_onSessionChanged);
++  }
++}
+diff --git a/fushi/lib/src/models/app_model.dart b/fushi/lib/src/models/app_model.dart
+index babb62abe4dbf0e970218cc89f51af59ca09bcfe..007931278eb3b784c1e42c6d265159b9330d8cd8 100644
+--- a/fushi/lib/src/models/app_model.dart
++++ b/fushi/lib/src/models/app_model.dart
+@@ -239,6 +239,8 @@ import 'package:fushi/src/models/store_compliance.dart';
+ import 'package:fushi/src/settings/settings_schema.dart'
+     show resetSettingsSchemaCache;
+ import 'package:fushi/src/sync/texthooker_service.dart';
++import 'package:fushi/src/mining/gal_hook_session_controller.dart';
++import 'package:fushi/src/mining/gal_text_auto_copy_controller.dart';
+ import 'package:fushi/src/sync/texthooker_ws_client_manager.dart';
+ import 'package:fushi_engine/sync/fushi_remote_api_handlers.dart'
+     show RemotePopupDictionaryCss;
+@@ -1027,6 +1029,7 @@ class AppModel with ChangeNotifier {
+   PreferencesRepository? _prefsRepo;
+   PreferencesRepository get prefsRepo => _prefsRepo!;
+   bool get isPreferencesReady => _prefsRepo != null;
++  GalTextAutoCopyController? _galTextAutoCopyController;
+ 
+   /// v101 统一更新提醒。懒建：四个投递方（番剧订阅检查、漫画库刷新、扩展检查、
+   /// app 版本检查）与更新页共用这一份，进程内单例。
+@@ -3026,6 +3029,15 @@ class AppModel with ChangeNotifier {
+       // 开关就只在「本次会话里手动改过」时才生效，重启后静默退回默认值。
+       TexthookerService.instance.foldProgressiveLines =
+           prefsRepo.galHookFoldProgressiveLines;
++      if (Platform.isWindows) {
++        _galTextAutoCopyController?.dispose();
++        _galTextAutoCopyController = GalTextAutoCopyController(
++          session: GalHookSessionController.instance,
++          clipboardWriter: platformServices.clipboard.copyToClipboard,
++          onError: (Object error, StackTrace stack) =>
++              ErrorLogService.instance.log('GalTextAutoCopy', error, stack),
++        )..setEnabled(prefsRepo.galTextAutoCopyEnabled);
++      }
+       // 代理是**进程级**网络出口配置，却只存在偏好里；同步层的单例（GoogleDriveAuth 等）
+       // 拿不到 AppModel，以前就只能各自裸连——BUG-1348 的谷歌云盘登录超时正是如此。四个
+       // 代理读取器的绑定已下沉到 `PreferencesRepository.loadFromDb()`（偏好变得可读的
+@@ -7476,6 +7488,8 @@ class AppModel with ChangeNotifier {
+ 
+   Future<void> closeDatabase({Duration? pipelineDrainTimeout}) async {
+     _isInitialised = false;
++    _galTextAutoCopyController?.dispose();
++    _galTextAutoCopyController = null;
+     // BUG-1569②：合集观察者持有本库的表订阅 + 未决防抖 Timer，关库前必须撤——
+     // 否则防抖到点后 _runCollectionsSync 会对已关闭的 db 发起查询（drift「connection
+     // was closed」异常）。initialise 装载（installCollectionsSyncWatcher），此前只有
+@@ -7506,6 +7520,8 @@ class AppModel with ChangeNotifier {
+ 
+   @override
+   void dispose() {
++    _galTextAutoCopyController?.dispose();
++    _galTextAutoCopyController = null;
+     // BUG-913：对称释放 initialise() 起的 4 个 app-wide 常驻子系统。dispose 是同步的、
+     // 这些 stop 多为 Future → fire-and-forget（unawaited）；先停常驻服务，再走现有
+     // notifier/repo dispose，最后 super.dispose()。
+@@ -8640,6 +8656,12 @@ class AppModel with ChangeNotifier {
+     TexthookerService.instance.foldProgressiveLines = value;
+   }
+ 
++  bool get galTextAutoCopyEnabled => prefsRepo.galTextAutoCopyEnabled;
++  Future<void> setGalTextAutoCopyEnabled(bool value) async {
++    await prefsRepo.setGalTextAutoCopyEnabled(value);
++    _galTextAutoCopyController?.setEnabled(value);
++  }
++
+   // TODO-370: 悬浮字幕透明度（按钮底色 / 文字），0..100 百分比，100=保持现观感。
+   int get floatingLyricButtonBgOpacity =>
+       prefsRepo.floatingLyricButtonBgOpacity;
+diff --git a/fushi/lib/src/models/preference_keys.dart b/fushi/lib/src/models/preference_keys.dart
+index ff7396da29a3688ea4f9b717b4d031bb21e8a396..dda8e4036d40f8d408dcafd04687029a3f295e96 100644
+--- a/fushi/lib/src/models/preference_keys.dart
++++ b/fushi/lib/src/models/preference_keys.dart
+@@ -165,6 +165,7 @@ const Set<String> kKnownPreferenceKeys = <String>{
+   'gal_mining_clip_format',
+   'gal_mining_image_mode',
+   'gal_mining_still_format',
++  'gal_text_auto_copy_enabled',
+   'galgame_library',
+   'galgame_library_view',
+   'games_collapsed_collection_ids',
+diff --git a/fushi/lib/src/models/preferences_repository.dart b/fushi/lib/src/models/preferences_repository.dart
+index 87e560c4b82aa042a0d2036bcbb7900af4e4bfb4..53a61a8701d09af3d683d940b2890006dfc095d1 100644
+--- a/fushi/lib/src/models/preferences_repository.dart
++++ b/fushi/lib/src/models/preferences_repository.dart
+@@ -3186,6 +3186,15 @@ class PreferencesRepository extends ChangeNotifier
+     notifyListeners();
+   }
+ 
++  /// 新台词自动复制到剪贴板。默认关闭，避免覆盖用户原有剪贴板。
++  bool get galTextAutoCopyEnabled =>
++      getPref('gal_text_auto_copy_enabled', defaultValue: false) == true;
++
++  Future<void> setGalTextAutoCopyEnabled(bool value) async {
++    await setPref('gal_text_auto_copy_enabled', value);
++    notifyListeners();
++  }
++
+   /// 游戏内查词总开关（仅 Windows 生效）。
+   bool get galIngameLookupEnabled =>
+       getPref(
+diff --git a/fushi/lib/src/settings/settings_schema_game.dart b/fushi/lib/src/settings/settings_schema_game.dart
+index 20bd453638f47d5fb26f8b8af6f417899e95a2a4..fb3886431b2c9a58657d00e5bc8638ff3c50c48e 100644
+--- a/fushi/lib/src/settings/settings_schema_game.dart
++++ b/fushi/lib/src/settings/settings_schema_game.dart
+@@ -302,6 +302,19 @@ SettingsDestination buildGameDestination() {
+               settingsContext.refresh();
+             },
+           ),
++          SettingsSwitchItem(
++            id: 'game.text_auto_copy',
++            title: t.gal_text_auto_copy,
++            subtitle: t.gal_text_auto_copy_hint,
++            icon: Icons.content_copy_outlined,
++            visible: (_) => Platform.isWindows,
++            value: (SettingsContext settingsContext) =>
++                settingsContext.appModel.galTextAutoCopyEnabled,
++            onChanged: (SettingsContext settingsContext, bool value) async {
++              await settingsContext.appModel.setGalTextAutoCopyEnabled(value);
++              settingsContext.refresh();
++            },
++          ),
+         ],
+       ),
+       SettingsSection(
+diff --git a/fushi/test/mining/gal_text_auto_copy_controller_test.dart b/fushi/test/mining/gal_text_auto_copy_controller_test.dart
+new file mode 100644
+index 0000000000000000000000000000000000000000..29547a75f31561c50bb3bbe1dc0ee3fefc4cc5dd
+--- /dev/null
++++ b/fushi/test/mining/gal_text_auto_copy_controller_test.dart
+@@ -0,0 +1,270 @@
++import 'dart:async';
++
++import 'package:flutter/foundation.dart';
++import 'package:flutter/services.dart';
++import 'package:flutter_test/flutter_test.dart';
++import 'package:fushi/src/mining/gal_hook_session_controller.dart';
++import 'package:fushi/src/mining/gal_text_auto_copy_controller.dart';
++import 'package:fushi/src/platform/desktop/desktop_clipboard_service.dart';
++import 'package:fushi/src/sync/texthooker_service.dart';
++import 'package:fushi/src/sync/texthooker_ws_client.dart';
++
++void main() {
++  TestWidgetsFlutterBinding.ensureInitialized();
++
++  late TexthookerService textService;
++  late ChangeNotifier endpoints;
++  late GalHookSessionController session;
++  late GalTextAutoCopyController autoCopy;
++  late List<String> copied;
++  late List<Object> failures;
++  late Future<void> Function(String text) write;
++
++  setUp(() {
++    textService = TexthookerService.test();
++    endpoints = ChangeNotifier();
++    session = GalHookSessionController(
++      textService: textService,
++      isWindows: false,
++      endpointListenable: endpoints,
++      endpointStatusLoader: () => const <TexthookerEndpointStatus>[],
++    );
++    copied = <String>[];
++    failures = <Object>[];
++    write = (String text) async {
++      copied.add(text);
++    };
++    autoCopy = GalTextAutoCopyController(
++      session: session,
++      clipboardWriter: (String text) => write(text),
++      onError: (Object error, StackTrace stack) => failures.add(error),
++    );
++  });
++
++  tearDown(() async {
++    autoCopy.dispose();
++    await session.close();
++    endpoints.dispose();
++    textService.dispose();
++  });
++
++  Future<void> settleWrites() => Future<void>.delayed(Duration.zero);
++
++  TexthookerLineEntry appendThreadLine(String text, String thread) {
++    return textService.appendLine(
++      text,
++      source: TexthookerLineSource.engineHook,
++      sourceLabel: 'engine_hook',
++      textThreadKey: thread,
++    )!;
++  }
++
++  test(
++    'defaults off and receives text without changing the clipboard',
++    () async {
++      expect(autoCopy.enabled, isFalse);
++      textService.appendLine('テストの台詞です。');
++      await settleWrites();
++      expect(copied, isEmpty);
++    },
++  );
++
++  test(
++    'enabling ignores history and copies the next threadless line',
++    () async {
++      textService.appendLine('以前の台詞です。');
++      autoCopy.setEnabled(true);
++      await settleWrites();
++      expect(copied, isEmpty);
++
++      const String text = '新しい台詞です。\n次の行も残ります。';
++      textService.appendLine(text, source: TexthookerLineSource.websocket);
++      await settleWrites();
++      expect(copied, <String>[text]);
++    },
++  );
++
++  test(
++    'desktop service sends extracted text to the clipboard channel',
++    () async {
++      final List<MethodCall> calls = <MethodCall>[];
++      final messenger =
++          TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger;
++      messenger.setMockMethodCallHandler(SystemChannels.platform, (
++        MethodCall call,
++      ) async {
++        calls.add(call);
++        return null;
++      });
++      addTearDown(
++        () => messenger.setMockMethodCallHandler(SystemChannels.platform, null),
++      );
++      write = DesktopClipboardService().copyToClipboard;
++      autoCopy.setEnabled(true);
++      textService.appendLine('クリップボードへの台詞です。');
++      await settleWrites();
++      expect(calls, hasLength(1));
++      expect(calls.single.method, 'Clipboard.setData');
++      expect(calls.single.arguments, <String, String>{
++        'text': 'クリップボードへの台詞です。',
++      });
++    },
++  );
++
++  test('copies a selected thread but ignores unselected threads', () async {
++    appendThreadLine('選択用の以前の台詞です。', 'thread-a');
++    await session.selectTextThread(1, threadKey: 'thread-a');
++    autoCopy.setEnabled(true);
++
++    appendThreadLine('選択された新しい台詞です。', 'thread-a');
++    await settleWrites();
++    appendThreadLine('別のスレッドの台詞です。', 'thread-b');
++    await settleWrites();
++
++    expect(copied, <String>['選択された新しい台詞です。']);
++  });
++
++  test('thread selection notifications do not copy buffered history', () async {
++    autoCopy.setEnabled(true);
++    appendThreadLine('以前に受信した台詞です。', 'thread-a');
++    await settleWrites();
++    expect(copied, isEmpty);
++
++    await session.selectTextThread(1, threadKey: 'thread-a');
++    await settleWrites();
++    expect(session.workbenchLines, hasLength(1));
++    expect(copied, isEmpty);
++
++    appendThreadLine('選択後に受信した新しい台詞です。', 'thread-a');
++    await settleWrites();
++    expect(copied, <String>['選択後に受信した新しい台詞です。']);
++  });
++
++  test('audio and endpoint notifications do not duplicate a copy', () async {
++    autoCopy.setEnabled(true);
++    final TexthookerLineEntry line = textService.appendLine('同じ台詞です。')!;
++    await settleWrites();
++
++    textService.updateLineAudio(
++      line.id,
++      status: TexthookerLineAudioStatus.matched,
++      backend: 'game_resource',
++      resourceId: 'synthetic.ogg',
++    );
++    endpoints.notifyListeners();
++    await settleWrites();
++    expect(copied, <String>[line.text]);
++  });
++
++  test(
++    'progressive folding copies changed text with the same row id',
++    () async {
++      appendThreadLine('以前の台詞です。', 'thread-a');
++      await session.selectTextThread(1, threadKey: 'thread-a');
++      autoCopy.setEnabled(true);
++      const String first = '今日はいい天気ですね。';
++      const String full = '今日はいい天気ですね。散歩に行きましょう。';
++      final TexthookerLineEntry firstLine = appendThreadLine(first, 'thread-a');
++      await settleWrites();
++      final TexthookerLineEntry updated = appendThreadLine(full, 'thread-a');
++      expect(updated.id, firstLine.id);
++      await settleWrites();
++      expect(copied, <String>[first, full]);
++    },
++  );
++
++  test(
++    'repeated identical text on distinct rows still copies each row',
++    () async {
++      autoCopy.setEnabled(true);
++      final TexthookerLineEntry first = textService.appendLine('はい。')!;
++      final TexthookerLineEntry second = textService.appendLine('はい。')!;
++      expect(second.id, isNot(first.id));
++      await settleWrites();
++      expect(copied, <String>['はい。', 'はい。']);
++    },
++  );
++
++  test('rapid asynchronous clipboard writes remain ordered', () async {
++    final Completer<void> firstStarted = Completer<void>();
++    final Completer<void> releaseFirst = Completer<void>();
++    final List<String> started = <String>[];
++    write = (String text) async {
++      started.add(text);
++      if (text == '一番目。') {
++        firstStarted.complete();
++        await releaseFirst.future;
++      }
++      copied.add(text);
++    };
++    autoCopy.setEnabled(true);
++    textService.appendLine('一番目。');
++    await firstStarted.future;
++    textService.appendLine('二番目。');
++    textService.appendLine('三番目。');
++    await settleWrites();
++    expect(started, <String>['一番目。']);
++
++    releaseFirst.complete();
++    await settleWrites();
++    expect(copied, <String>['一番目。', '二番目。', '三番目。']);
++  });
++
++  for (final bool dispose in <bool>[false, true]) {
++    test('${dispose ? 'dispose' : 'disable'} cancels queued writes', () async {
++      final Completer<void> firstStarted = Completer<void>();
++      final Completer<void> releaseFirst = Completer<void>();
++      write = (String text) async {
++        if (text == '実行中の台詞です。') {
++          firstStarted.complete();
++          await releaseFirst.future;
++        }
++        copied.add(text);
++      };
++      autoCopy.setEnabled(true);
++      textService.appendLine('実行中の台詞です。');
++      await firstStarted.future;
++      textService.appendLine('待機中の台詞です。');
++      if (dispose) {
++        autoCopy.dispose();
++      } else {
++        autoCopy.setEnabled(false);
++      }
++      releaseFirst.complete();
++      await settleWrites();
++      textService.appendLine('停止後の台詞です。');
++      await settleWrites();
++      expect(copied, <String>['実行中の台詞です。']);
++    });
++  }
++
++  test('reenabling does not replay text received while disabled', () async {
++    autoCopy.setEnabled(true);
++    textService.appendLine('開始時の台詞です。');
++    await settleWrites();
++    autoCopy.setEnabled(false);
++    textService.appendLine('無効の間の台詞です。');
++    autoCopy.setEnabled(true);
++    endpoints.notifyListeners();
++    await settleWrites();
++    expect(copied, <String>['開始時の台詞です。']);
++
++    textService.appendLine('再開後の台詞です。');
++    await settleWrites();
++    expect(copied, <String>['開始時の台詞です。', '再開後の台詞です。']);
++  });
++
++  test('a clipboard failure does not block the next line', () async {
++    final StateError failure = StateError('clipboard temporarily unavailable');
++    write = (String text) async {
++      if (text == '失敗する台詞です。') throw failure;
++      copied.add(text);
++    };
++    autoCopy.setEnabled(true);
++    textService.appendLine('失敗する台詞です。');
++    textService.appendLine('次の台詞です。');
++    await settleWrites();
++    expect(failures, <Object>[failure]);
++    expect(copied, <String>['次の台詞です。']);
++  });
++}
+diff --git a/fushi/test/models/gal_text_auto_copy_preferences_test.dart b/fushi/test/models/gal_text_auto_copy_preferences_test.dart
+new file mode 100644
+index 0000000000000000000000000000000000000000..bf4c05bd986e5215355eff698459797513c91ad3
+--- /dev/null
++++ b/fushi/test/models/gal_text_auto_copy_preferences_test.dart
+@@ -0,0 +1,40 @@
++import 'package:drift/native.dart';
++import 'package:flutter_test/flutter_test.dart';
++import 'package:fushi/src/models/preferences_repository.dart';
++import 'package:fushi_core/fushi_core.dart';
++
++void main() {
++  late FushiDatabase db;
++  late PreferencesRepository preferences;
++
++  setUp(() async {
++    db = FushiDatabase.forTesting(NativeDatabase.memory());
++    preferences = PreferencesRepository(db);
++    await preferences.loadFromDb();
++  });
++
++  tearDown(() async {
++    preferences.dispose();
++    await db.close();
++  });
++
++  test('text auto copy defaults off for existing and new users', () {
++    expect(preferences.galTextAutoCopyEnabled, isFalse);
++  });
++
++  test('enabled and disabled choices survive repository reload', () async {
++    await preferences.setGalTextAutoCopyEnabled(true);
++    expect(preferences.galTextAutoCopyEnabled, isTrue);
++
++    final PreferencesRepository reopened = PreferencesRepository(db);
++    addTearDown(reopened.dispose);
++    await reopened.loadFromDb();
++    expect(reopened.galTextAutoCopyEnabled, isTrue);
++
++    await reopened.setGalTextAutoCopyEnabled(false);
++    expect(reopened.galTextAutoCopyEnabled, isFalse);
++
++    await preferences.loadFromDb();
++    expect(preferences.galTextAutoCopyEnabled, isFalse);
++  });
++}
+diff --git a/fushi/test/settings/gal_text_auto_copy_settings_test.dart b/fushi/test/settings/gal_text_auto_copy_settings_test.dart
+new file mode 100644
+index 0000000000000000000000000000000000000000..3b170c8bd821e3ba29057cf0ad4c7ff66a3e785d
+--- /dev/null
++++ b/fushi/test/settings/gal_text_auto_copy_settings_test.dart
+@@ -0,0 +1,67 @@
++import 'dart:io';
++
++import 'package:drift/native.dart';
++import 'package:flutter/material.dart';
++import 'package:flutter_riverpod/flutter_riverpod.dart';
++import 'package:flutter_test/flutter_test.dart';
++import 'package:fushi/src/media/sources/reader_fushi_source.dart';
++import 'package:fushi/src/models/app_model.dart';
++import 'package:fushi/src/models/preferences_repository.dart';
++import 'package:fushi/src/settings/settings_context.dart';
++import 'package:fushi/src/settings/settings_destination.dart';
++import 'package:fushi/src/settings/settings_schema_game.dart';
++import 'package:fushi_core/fushi_core.dart';
++
++import '../helpers/test_platform_services.dart';
++
++void main() {
++  testWidgets('game settings toggle writes the auto-copy preference', (
++    WidgetTester tester,
++  ) async {
++    final FushiDatabase db = FushiDatabase.forTesting(NativeDatabase.memory());
++    addTearDown(db.close);
++    final PreferencesRepository preferences = PreferencesRepository(db);
++    await preferences.loadFromDb();
++    final AppModel appModel = AppModel(testPlatformServices())
++      ..wireLocalAudioForTesting(
++        prefsRepo: preferences,
++        databaseDirectory: Directory.systemTemp,
++      )
++      ..wireDatabaseForTesting(db);
++    addTearDown(appModel.dispose);
++    late SettingsContext settingsContext;
++    final SettingsSwitchItem item = buildGameDestination().sections
++        .expand((section) => section.items)
++        .whereType<SettingsSwitchItem>()
++        .singleWhere((item) => item.id == 'game.text_auto_copy');
++    int refreshes = 0;
++    await tester.pumpWidget(
++      ProviderScope(
++        child: MaterialApp(
++          home: Consumer(
++            builder: (BuildContext context, WidgetRef ref, _) {
++              settingsContext = SettingsContext(
++                context: context,
++                appModel: appModel,
++                ref: ref,
++                readerSource: ReaderFushiSource.instance,
++                refresh: () => refreshes++,
++              );
++              return const SizedBox();
++            },
++          ),
++        ),
++      ),
++    );
++    expect(item.value(settingsContext), isFalse);
++    await item.onChanged(settingsContext, true);
++    expect(item.value(settingsContext), isTrue);
++    final PreferencesRepository reopened = PreferencesRepository(db);
++    addTearDown(reopened.dispose);
++    await reopened.loadFromDb();
++    expect(reopened.galTextAutoCopyEnabled, isTrue);
++    await item.onChanged(settingsContext, false);
++    expect(item.value(settingsContext), isFalse);
++    expect(refreshes, 2);
++  });
++}
+diff --git a/fushi/test/settings/settings_schema_coverage_test.dart b/fushi/test/settings/settings_schema_coverage_test.dart
+index bc100f06ea27fe08244110320f4dd276db2e4e0e..d7ccffcc2f7456f39aae3408bea1cbd206d1be24 100644
+--- a/fushi/test/settings/settings_schema_coverage_test.dart
++++ b/fushi/test/settings/settings_schema_coverage_test.dart
+@@ -219,6 +219,10 @@ const Map<String, String> kCoveredElsewhere = <String, String>{
+   // 四种形状 + 关掉开关必须退回旧的逐条追加行为）。
+   'game/Merge split dialogue lines':
+       'test/sync/texthooker_progressive_fold_test.dart',
++  // 剪贴板副作用由专门测试观察；通用设置探针仅检查开关写穿与恢复。
++  'game/Automatically copy extracted text':
++      'test/mining/gal_text_auto_copy_controller_test.dart + '
++      'test/settings/gal_text_auto_copy_settings_test.dart',
+   'game/In-game dictionary lookup':
+       'test/lookup/gal_ingame_lookup_contract_test.dart + '
+       'native/galgame_hook/tests/lookup_ipc_contract_test.cpp + '

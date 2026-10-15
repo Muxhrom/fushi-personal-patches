@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-15",
+  "upstream_commit": "689f44456cd224641e916da4ef5bf38438771b29",
+  "patch_sha256": "cfba8d92e4adc4dc99a84f49acf6fcdffec48d8ab49ba56e60968c77b70ee3d5",
+  "exact_base_apply_check_passed": true,
+  "reconstructed_files_sha256_matched": 27,
+  "reconstructed_files_git_blobs_matched": 27,
+  "scan_actual_application_values": 7,
+  "sensitive_values_found": 0,
+  "credential_pattern_matches": 0,
+  "files_scanned": 11,
+  "binaries_personal_data_and_caches_included": false
+}
